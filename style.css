@@ -1145,3 +1145,16 @@ main { position: relative; z-index: 1; }
         font-size: 30px;
     }
 }
+.top-banner {
+    width: min(1120px, calc(100% - 28px));
+    margin: 24px auto 0;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+}
+
+.top-banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
